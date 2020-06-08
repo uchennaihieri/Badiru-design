@@ -1,0 +1,191 @@
+body {
+  height: 100%;
+  background: #ffffff;
+}
+
+html {
+  height: 100%;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 322px;
+  left: 0px;
+  top: 55px;
+  background: #b5a7fa;
+}
+
+.images {
+  position: absolute;
+  width: 737px;
+  height: 350px;
+  left: 351px;
+  right: 350;
+  top: 236px;
+  /* background: url(Classic-Rooms-Accommodation-Dublin.jpg); */
+}
+
+.formtext {
+  position: absolute;
+  width: 765px;
+  height: 74px;
+  left: 195px;
+  top: 648px;
+  border: 1px solid #080227;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  left: 231px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: rgba(8, 2, 39, 0.59);
+}
+
+.btnn {
+  position: absolute;
+  width: 240px;
+  height: 74px;
+  left: 1005px;
+  top: 648px;
+  background-color: #f5b943;
+  border-radius: 10px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #00afef;
+  cursor: pointer;
+}
+
+.i1 {
+  position: absolute;
+  width: 274px;
+  height: 172px;
+  left: 195px;
+  top: 808px;
+
+  background: rgba(181, 167, 250, 0.6);
+  border-radius: 10px;
+}
+
+.i2 {
+  position: absolute;
+  width: 274px;
+  height: 166px;
+  left: 525px;
+  top: 814px;
+
+  /* background: url(Hotel-design.png); */
+  border-radius: 10px;
+}
+
+.i3 {
+  position: absolute;
+  width: 274px;
+  height: 163px;
+  left: 199px;
+  top: 1022px;
+
+  /* background: url(hotel-room.jpg); */
+  border-radius: 10px;
+}
+
+.i4 {
+  position: absolute;
+  width: 274px;
+  height: 162px;
+  left: 525px;
+  top: 1022px;
+
+  /* background: url(hotel-room-design-compressor.jpg); */
+  border-radius: 10px;
+}
+
+.i5 {
+  position: absolute;
+  width: 274px;
+  height: 162px;
+  left: 199px;
+  top: 1228px;
+
+  /* background: url(73118462.jpg); */
+  border-radius: 10px;
+}
+
+.i6 {
+  position: absolute;
+  width: 274px;
+  height: 162px;
+  left: 525px;
+  top: 1228px;
+
+  /* background: url(unnamed.jpg); */
+  border-radius: 10px;
+}
+
+.rect {
+  position: absolute;
+  width: 16px;
+  height: 280px;
+  left: 1001px;
+  top: 959px;
+
+  background: #080227;
+}
+
+.amountb {
+  position: absolute;
+  width: 187px;
+  height: 42px;
+  left: 1061px;
+  top: 990px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #6043f5;
+}
+
+.para {
+  position: absolute;
+  width: 176px;
+  height: 18px;
+  left: 1061px;
+  top: 1057px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.check {
+  position: absolute;
+  width: 176px;
+  height: 44px;
+  left: 1061px;
+  top: 1114px;
+
+  background: #f5b943;
+  border-radius: 10px;
+}

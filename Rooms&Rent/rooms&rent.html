@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./badiruhotel.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./badiruhotel.css" />
 
     <!-- Navbar -->
+
+    <link rel="stylesheet" href="../navbar.css" />
+
     <link rel="stylesheet" href="../css/navbar.css">
     <!-- font awesome -->
     <link
       rel="stylesheet"
       href="../fontawesome-free-5.12.0-web/css/all.min.css"
     />
+    <link rel="stylesheet" href="rooms&rent.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
+
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="../logo.jpg" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+
         <div class="nav-center">
           <!-- nav header -->
           <div class="nav-header">
@@ -67,9 +80,95 @@
               </a>
             </li>
           </ul>
-        </div>
-      </nav>
 
-      <script src="../navbar.js"></script>
-</body>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="../Home/badiruhotel.html">home</a>
+          </li>
+          <li>
+            <a href="../Facilities/facilities.html">facilities</a>
+          </li>
+          <li>
+            <a href="#">rooms & rent</a>
+          </li>
+          <li>
+            <a href="../Contact us/contactus.html">contact</a>
+          </li>
+        </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-sketch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="hero"></div>
+      <div>
+        <img
+          class="images"
+          src="./Classic-Rooms-Accommodation-Dublin 1.jpg"
+          alt="room with two beds"
+        />
+      </div>
+      <form action="#">
+        <input
+          type="text"
+          class="formtext"
+          placeholder="What are you looking for ?"
+        />
+      </form>
+      <button class="btnn">Search</button>
+      <div class="grid-container">
+        <img
+          class="i1"
+          src="./Classic-Rooms-Accommodation-Dublin 1.jpg"
+          alt=""
+        />
+        <img class="i2" src="./Hotel-design 1.png" alt="" />
+        <img class="i3" src="./hotel-room 1.png" alt="" />
+        <img class="i4" src="./hotel-room-design-compressor 2.png" alt="" />
+        <img
+          class="i5"
+          src="./Classic-Rooms-Accommodation-Dublin 1.jpg"
+          alt=""
+        />
+        <img class="i6" src="./unnamed 1.png" alt="" />
+      </div>
+
+      <div class="rect"></div>
+      <h3 class="amountb">Amount</h3>
+      <p class="para">#1,500,000</p>
+      <button class="check">Check Out</button>
+    </div>
+
+    <script src="../navbar.js"></script>
+    <script src="../Rooms&Rent/rooms&rent.js"></script>
+  </body>
 </html>

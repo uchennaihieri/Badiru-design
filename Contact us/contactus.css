@@ -1,162 +1,221 @@
-*{
-    padding: 0;
-    margin: 0;
-  }
-  img {
-    max-width: 100;
-    height: auto;
-  }
-  body {
-    font-family: "Raleway", sans-serif;
-    background-color: #ffffff;
-    color: black;
-  }
-  /* css for header*/
-  .header {
-    background-color: #ffffff;
-    padding: 5px 0;
-  }
-  .container {
-    max-width: 100%; 
-    margin: 0 auto;
-  }
-  .flex_box {
-    display: flex;
-    justify-content: space-between;
-  }
-  .logo {
-    flex-basis: 25%;
-    display: inline-block;
-  }
-  .navbar {
-    flex-basis: 10%;
-  }
-  .logo a {
-    padding: 5px;
-    display: inline-block;
-  }
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .navbar ul li a {
-    color: #000000;
-    text-decoration: none;
-    padding: 20px;
-    margin-top: 1px;
-    display: inline-block;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-             Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .slide img {
-    width: 100%;
-    height: 500px;
-  }
-  .flex-box{
-    display: flex;
-    flex-basis: 31%;
-  justify-content: space-around;
-  }
-  
-  h3 {
-    margin: 15px 0;
-    color: #333333;
-  }
-  
-  p {
-    margin: 15px 0;
-  }
-  .flex-half-column {
-    flex: 48%;
-    margin: 60px 8px;
-  }
-  
-  .flex-half-column img {
-    width: 450px;
-    height: 300px;
-  }
-  .contact img{
-    width: 20px;
-    height: 21px;
-  }
-  h1 {
-    color: black;
-  }
-  .form{
-    font-size: 25px;
-    color: #745af7;
-    margin-bottom: 1px;
-  }
-    input{
-      border-radius: 3px;
-     border: 1px solid #b4ba8d;
-      background-color: #dff0d8;
-      padding: 8px;
-      margin: 50px;
-      width:400px; 
-      justify-content: center;
-  }
-  span{ 
-    font-family: 'Segoe UI';
-     color: white;
-     border: 1px solid #b4ba8d;
-     border-radius: 6px;
-     background-color: #f5b943;
-     padding:5px;
-     text-decoration: none;
-  } 
-  
-  .footer-top {
-    background-color:#080227;
-    
-  }
-  .footer-top ul{
-      list-style: none;
-      padding: 12px 0;
-  }
-  .footer-top ul li a{
-      color:white;
-      text-decoration: none;
-  }
-  .footer-top ul li{
-      margin: 0 0 5px 0;
-      padding : 0 0 10px 0;
-  }
-  #paragraph{
-      color: #b4ba8d;
-      font-size: 25px;
-  }
-  input{
-       border-radius: 3px;
-      border: 1px solid #b4ba8d;
-       background-color: #dff0d8;
-       padding: 8px;
-       margin: 20px;
-       width:400px; 
-       justify-content: center;
-   }
-   span{ font-family: 'Segoe UI';
-      color: white;
-      border: 1px solid #b4ba8d;
-      border-radius: 6px;
-      background-color: #f5b943;
-      padding:5px;
-      text-decoration: none; 
-  }
-  /*mobile friendly*/
-  @media(max-width: 767px){
-      .flex-box{
-          flex-direction: column;
-      }
-      .header , .navbar ul{
-          text-align: center;
-      }
-      .navbar ul {
-          justify-content: center;
-  
-      }
-     .container{
-         padding: 0 25px;
-       }
-    }
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+	color: black;
+}
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+}
+
+/* css for header*/
+.header {
+	background-color: #fff;
+	padding: 5px 0;
+}
+.logo {
+	flex-basis: 25%;
+	display: inline-block;
+}
+.navbar {
+	flex-basis: 10%;
+}
+.logo a {
+	padding: 5px;
+	display: inline-block;
+}
+.navbar ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+.navbar ul li a {
+	color: #000000;
+	text-decoration: none;
+	padding: 20px;
+	margin-top: 1px;
+	display: inline-block;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.slide img {
+	width: 100%;
+	height: 500px;
+}
+.flex-box {
+	display: flex;
+	flex-basis: 31%;
+	justify-content: space-around;
+}
+
+h3 {
+	margin: 15px 0;
+	color: #333333;
+}
+
+p {
+	margin: 15px 0;
+}
+.flex-half-column {
+	flex: 48%;
+	margin: 60px 8px;
+}
+
+.flex-half-column img {
+	width: 450px;
+	height: 300px;
+}
+.contact img {
+	width: 20px;
+	margin-right: 1.5rem;
+}
+
+h1 {
+	color: black;
+}
+.form {
+	font-size: 25px;
+	color: #745af7;
+	margin-bottom: 1px;
+}
+
+span {
+	font-family: 'Segoe UI';
+	color: white;
+	border: 1px solid #b4ba8d;
+	border-radius: 6px;
+	background-color: #f5b943;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.footer-top {
+	background-color: #080227;
+}
+.footer-top ul {
+	list-style: none;
+	padding: 12px 0;
+}
+.footer-top ul li a {
+	color: white;
+	text-decoration: none;
+}
+.footer-top ul li {
+	margin: 0 0 5px 0;
+	padding: 0 0 10px 0;
+}
+#paragraph {
+	color: #b4ba8d;
+	font-size: 25px;
+}
+
+span {
+	font-family: 'Segoe UI';
+	color: white;
+	border: 1px solid #b4ba8d;
+	border-radius: 6px;
+	background-color: #f5b943;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.contact__links {
+	border-left: 0.8rem solid #080227;
+}
+
+.contacts__section {
+	padding: 8rem 0;
+}
+
+.hero__image {
+	min-height: 30rem;
+}
+
+.form__heading {
+	margin-top: 3rem;
+	font-size: 2.5rem;
+	color: #745af7;
+	font-weight: 500;
+}
+
+.form input {
+	border: 1px solid #080227;
+	border-radius: 1rem;
+	margin: 1rem 0;
+}
+
+.form button[type='submit'] {
+	background: #f5b943;
+	color: #fff;
+	border-radius: 1rem;
+	font-size: 2rem;
+	padding: 1rem 3rem;
+	border: none;
+}
+
+/*mobile friendly*/
+@media (max-width: 767px) {
+	.flex-box {
+		flex-direction: column;
+	}
+	.header,
+	.navbar ul {
+		text-align: center;
+	}
+	.navbar ul {
+		justify-content: center;
+	}
+	.container {
+		padding: 0 25px;
+	}
+}
+
+/* footer code */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: inherit;
+}
+
+#footer {
+	color: #fff;
+	background-color: #080227;
+}
+
+#footer {
+	padding: 4rem 0;
+}
+
+.contact img {
+	margin-right: 1rem;
+}
+
+.footer__heading {
+	text-transform: capitalize;
+	line-height: 2.5;
+}
+
+.fab {
+	font-size: 3rem;
+	margin-right: 2rem;
+}

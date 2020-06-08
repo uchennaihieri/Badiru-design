@@ -1,0 +1,116 @@
+/* General styles */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --mainWhite : #f1f5f8;
+    --darkGrey: #333;
+}
+li {
+    color: inherit;
+    list-style: none;
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:focus {
+    outline: none;
+}
+.center {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+}
+/* End general styles */
+
+
+/* Navbar css */
+.navbar {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(70px, auto);
+    background: var(--mainWhite);
+    color: var(--darkGrey);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 0 2rem;
+    z-index: 1;
+}
+.navbar h2 {
+    /* grid-template-columns: 1; */
+    margin: auto 0;
+}
+.nav-links {
+    margin: auto 0;
+    place-items: end;
+}
+.nav-links .links li{
+    text-transform: uppercase;
+    padding: 0 1rem;
+}
+/* End Navbar css */
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Banner */
+.banner {
+    margin-top: 70px;
+    background: linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url('../images/bg.jpeg') center/cover no-repeat;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+.banner-filter {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+}
+.banner-filter .filter-btn {
+    margin: 0 auto;
+    padding: 1rem;
+    background: green;
+    width: 50vw;
+    place-content: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+.banner-filter .filter-btn button{
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: .5rem;
+}

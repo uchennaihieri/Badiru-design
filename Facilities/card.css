@@ -58,6 +58,7 @@
 }
 .services .card:hover .features{
     opacity: 1;
+    cursor: pointer;
 }
 
 

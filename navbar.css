@@ -23,6 +23,10 @@ img {
 
 nav {
     background: #f1f5f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 .btn {
   text-transform: uppercase;

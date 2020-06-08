@@ -1,0 +1,7 @@
+.banner {
+    margin-top: 70px;
+    background: linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url('../images/bg.jpeg') center/cover no-repeat;
+    width: 100vw;
+    height: 60vh;
+}

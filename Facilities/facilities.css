@@ -1,0 +1,62 @@
+:root {
+    --mainTransition: all 2s ease-in-out;
+    --mainWhite: #f1f5f8;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+}
+body {
+    overflow-x: hidden;
+}
+.heroBcg {
+    margin-top: 70px;
+    background: linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url('../images/bg.jpeg') center/cover no-repeat;
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+.heroBcg .banner-feature {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    width: 100vw;
+}
+.heroBcg .banner-feature .banner-filter{
+    width: 80vw;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    grid-column-gap: .5rem;
+    background: var(--mainWhite);
+    place-items: center;
+}
+.heroBcg .banner-feature .banner-filter button {
+    width: 70px;
+    height: 40px;
+}
+
+/* Product container */
+.product-container{
+    grid-template-columns: repeat(3, 1fr);
+    margin: 70px auto 0;
+}
+
+
+/* Footer */
+.footer {
+    grid-template-rows: minmax(50px, auto);
+    place-items: center;
+    background: var(--darkGrey);
+    color: var(--mainWhite);
+    letter-spacing: .05rem;
+    word-spacing: .3rem;
+    padding: .5rem;
+}
+.footer p {
+    padding: 0 .5rem;
+    text-align: center;
+}
